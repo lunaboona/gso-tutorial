@@ -54,6 +54,8 @@ Se tudo ocorreu normalmente, a seguinte tela será exibida:
 
 ## 2. Configurar a rede IPV4 de forma manual
 
+### Windows Server 2008
+
 Na VM do Windows Server 2008, clique no ícone da Rede e depois em Central de Redes e Compartilhamento:
 
 ![](./assets/c02_s01.png)
@@ -100,7 +102,31 @@ Desative o Compartilhamento protegido por senha:
 
 ![](./assets/c02_s11.png)
 
+## Windows XP
+
+WIP
+
 ## 3. Configurar o nome de cada computador
+
+### Windows Server 2008
+
+Na tela de Trarefas e Configurações Iniciais, selecionar Fornecer o nome e domínio do computador:
+
+![](./assets/c03_s01.png)
+
+Clique em Alterar, insira o nome `server01`, depois clique em mais:
+
+![](./assets/c03_s02.png)
+
+Insira `com` e clique em OK:
+
+![](./assets/c03_s03.png)
+
+Ao fechar as janelas, o sistema pedirá para reiniciar o computador. Selecione "Reiniciar Agora" e espere a VM reiniciar.
+
+### Windows XP
+
+WIP
 
 ## 4. Configurar o acesso remoto ao server
 
