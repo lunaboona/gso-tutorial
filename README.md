@@ -146,6 +146,24 @@ Ao fechar as janelas, o sistema pedirá para reiniciar o computador. Selecione "
 
 ## 4. Configurar o acesso remoto ao server
 
+No Windows Server 2008, selecione Iniciar > Documentos e crie uma pasta qualquer. Clique nela com o botão direito e vá em Compartilhar. Na janela de compartilhamento, selecione o primeiro campo de texto, digite "todos" e clique em Adicionar:
+
+![](./assets/c04_s01.png)
+
+No nível de permissão, selecione Parceria:
+
+![](./assets/c04_s02.png)
+
+Clique em Compartilhar e depois em Pronto. Clique novamente com o botão direito na pasta e selecione Propriedades, na aba Compartilhamento, selecione Compartilhamento Avançado. Na nova janela, selecione Compartilhar a pasta, depois clique em Permissões:
+
+![](./assets/c04_s03.png)
+
+Na janela de permissões, selecione Todos, depois permita o Controle total:
+
+![](./assets/c04_s04.png)
+
+No Windows XP, selecione Iniciar > Todos os Programas > Acessórios > Windows Explorer > Meus locais de rede. A pasta "Portal em Server01" deve estar disponível.
+
 ## 5. Configurar o DNS
 
 ## 6. Configurar DHCP
