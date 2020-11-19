@@ -104,7 +104,15 @@ Desative o Compartilhamento protegido por senha:
 
 ## Windows XP
 
-WIP
+Na VM do Windows XP, clique no ícone de Rede e depois em Propriedades:
+
+![](./assets/c02_s12.png)
+
+Selecione Protocolo TCP/IP, depois Propriedades. Na janela seguinte, selecione Usar o seguinte endereço IP e insira os seguintes valores:
+
+![](./assets/c02_s13.png)
+
+Selecione Iniciar, depois Painel de Controle.
 
 ## 3. Configurar o nome de cada computador
 
