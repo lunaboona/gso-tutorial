@@ -112,7 +112,11 @@ Selecione Protocolo TCP/IP, depois Propriedades. Na janela seguinte, selecione U
 
 ![](./assets/c02_s13.png)
 
-Selecione Iniciar, depois Painel de Controle.
+Selecione Iniciar > Painel de Controle > Central de Segurança. Selecione Firewall do Windows:
+
+![](./assets/c02_s14.png)
+
+Desative o Firewall e clique OK.
 
 ## 3. Configurar o nome de cada computador
 
@@ -134,7 +138,11 @@ Ao fechar as janelas, o sistema pedirá para reiniciar o computador. Selecione "
 
 ### Windows XP
 
-WIP
+No Painel de Controle, selecione Sistema, depois vá até a aba Nome do Computador e clique em Alterar. Modifique o Grupo de trabalho para `WORKGROUP`:
+
+![](./assets/c03_s04.png)
+
+Ao fechar as janelas, o sistema pedirá para reiniciar o computador. Selecione "SIM" e espere a VM reiniciar.
 
 ## 4. Configurar o acesso remoto ao server
 
