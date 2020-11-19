@@ -146,6 +146,8 @@ Ao fechar as janelas, o sistema pedirá para reiniciar o computador. Selecione "
 
 ## 4. Configurar o acesso remoto ao server
 
+### Pastas compartilhadas
+
 No Windows Server 2008, selecione Iniciar > Documentos e crie uma pasta qualquer. Clique nela com o botão direito e vá em Compartilhar. Na janela de compartilhamento, selecione o primeiro campo de texto, digite "todos" e clique em Adicionar:
 
 ![](./assets/c04_s01.png)
@@ -163,6 +165,28 @@ Na janela de permissões, selecione Todos, depois permita o Controle total:
 ![](./assets/c04_s04.png)
 
 No Windows XP, selecione Iniciar > Todos os Programas > Acessórios > Windows Explorer > Meus locais de rede. A pasta "Portal em Server01" deve estar disponível.
+
+### Acesso remoto
+
+No Windows Server 2008, abra o menu Iniciar > Painel de Controle > Contas de Usuário e selecione Gerenciar outra conta:
+
+![](./assets/c04_s05.png)
+
+Selecione Criar nova conta, insira um nome qualquer, mantendo Usuário padrão selecionado, depois clique em Criar conta.
+
+![](./assets/c04_s06.png)
+
+Selecione o usuário criado e clique em Criar uma senha. Insira uma senha qualquer.
+
+Repita o mesmo processo para criar mais uma conta, mas desta vez selecione Administrador ao criá-lo.
+
+Volte para a tela de Tarefas de Configuração Iniciais e selecione Habilitar Área de Trabalho Remota. Na nova janela, selecione a seguinte opção:
+
+![](./assets/c04_s07.png)
+
+Clique em Selecionar Usuários, depois em Adicionar, digite o nome de usuário administrador criado anteriormente e clique em Verificar nomes:
+
+![](./assets/c04_s08.png)
 
 ## 5. Configurar o DNS
 
