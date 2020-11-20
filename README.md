@@ -234,7 +234,33 @@ Clique em OK duas vezes, o resultado final deverá ser o seguinte:
 
 ## 6. Configurar DHCP
 
-WIP
+Na janela de Tarefas de Configuração Iniciais, selecione Adicionar funções:
+
+![](./assets/c05_s01.png)
+
+Clique em próximo e selecione Servidor DHCP. Clique em próximo até alcançar a seguinte tela, e então insira os seguintes dados:
+
+![](./assets/c06_s01.png)
+
+Selecione próximo até chegar na seguinte tela, e então clique no botão Adicionar:
+
+![](./assets/c06_s02.png)
+
+Insira as seguintes informações:
+
+![](./assets/c06_s03.png)
+
+Selecione OK, depois clique em próximo. Selecione Desabilitar:
+
+![](./assets/c06_s04.png)
+
+Clique em próximo, depois Instalar.
+
+### Windows XP
+
+Abra o menu Iniciar > Painel de Controle > Conexões de Rede e Internet > Conexões de Rede e selecione Conexão local. Clique em Propriedades, selecione Protocolo TCP/IP e clique em Propriedanes novamente. Selecione Obter um endereço IP automaticamente:
+
+![](./assets/c06_s05.png)
 
 ## 7. Configurar IIS
 
