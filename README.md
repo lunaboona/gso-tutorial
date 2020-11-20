@@ -190,12 +190,64 @@ Clique em Selecionar Usuários, depois em Adicionar, digite o nome de usuário a
 
 ## 5. Configurar o DNS
 
+### Windows Server 2008
+
+Na janela de Tarefas de Configuração Iniciais, selecione Adicionar funções:
+
+![](./assets/c05_s01.png)
+
+Clique em próximo, depois selecione Servidor DNS, clique em Próximo duas vezes e depois em Instalar. Assim que a instalação terminar, abra o menu Iniciar > Ferramentas Administrativas > DNS. Clique em SERVER01:
+
+![](./assets/c05_s02.png)
+
+Clique com o botão direito em Zonas de pesquisa direta e selecione "Nova zona...". Clique em Avançar, depois selecione Zona primária:
+
+![](./assets/c05_s03.png)
+
+Clique em Avançar, depois insira o nome `server01.com` e clique em Avançar até concluir. O resultado final deve ser o seguinte:
+
+![](./assets/c05_s04.png)
+
+Agora, clique com o botão direito em Zonas de pesquisa inversa e selecione "Nova zona...". Clique em avançar até alcançar a seguinte tela, e então insira o seguinte conteúdo:
+
+![](./assets/c05_s05.png)
+
+Clique em Avançar até concluir. O resultado final deve ser o seguinte:
+
+![](./assets/c05_s06.png)
+
+Clique em Zonas de pesquisa direta, depois selecione `server01.com`. Clique com o botão direito no painel à direita e selecione "Novo Host (A ou AAAA)...". Insira os seguintes dados, depois clique em Adicionar host:
+
+![](./assets/c05_s07.png)
+
+Após o host ser criado, feche a caixa de diálogo. Clique novamente com o botão direito no painel à direita e selecione "Novo alias (CNAME)...". Insira `www` no primeiro campo, depois clique em Procurar:
+
+![](./assets/c05_s08.png)
+
+Na janela nova, selecione SERVER01 > Zonas de pesquisa direta > server01.com > (igual à pasta pai):
+
+![](./assets/c05_s09.png)
+
+Clique em OK duas vezes, o resultado final deverá ser o seguinte:
+
+![](./assets/c05_s10.png)
+
 ## 6. Configurar DHCP
+
+WIP
 
 ## 7. Configurar IIS
 
+WIP
+
 ## 8. Configurar FTP
+
+WIP
 
 ## 9. Configurar Internet local para o server (NAT Externo)
 
+WIP
+
 ## 10. Configurar internet para clientes do server (NAT Interno)
+
+WIP
