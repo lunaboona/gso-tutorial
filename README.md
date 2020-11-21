@@ -297,6 +297,8 @@ Selecione o menu Iniciar > Ferramentas Administrativas > DNS. Selecione Zonas de
 
 ## 8. Configurar FTP
 
+### Windows Server 2008
+
 Selecione o menu Iniciar > Ferramentas Administrativas > Gerenciador de Serviços de Informações da Internet (IIS). Selecione Sites FTP e clique em "Clique aqui para iniciar". A janela do IIS 6 deve abrir. Selecione SERVER01 > Sites FTP, e então, com o botão direito em Default FTP Site, Iniciar. Selecione Sim na janela que se abriu.
 
 Selecione o menu Iniciar > Ferramentas Administrativas > DNS. Selecione `server01.com`, depois com o botão direito no painel selecione Novo Alias (CNAME). Preencha `ftp` no primeiro campo, depois selecione Procurar e vá até `server01.com` > (igual à pasta pai).
@@ -305,8 +307,26 @@ Todo o conteúdo dentro de `C:\inetpub\ftproot` estará disponível no servidor 
 
 ## 9. Configurar Internet local para o server (NAT Externo)
 
-WIP
+### Windows Server 2008
+
+Na janela principal do VirtualBox, selecione a VM do Windows Server 2008 e abra o menu Settings > Network > Adapter 2 e insira as seguintes opções:
+
+![](./assets/c09_s01.png)
+
+Inicie a VM novamente. Após Iniciar e fazer o login, selecione Iniciar > Painel de Controle > Centro de Rede e Compartilhamento > Gerenciar conexões de rede. Renomeie "Conexão Local" para "rede interna" e "Conexão local 2" para "rede externa".
 
 ## 10. Configurar internet para clientes do server (NAT Interno)
 
-WIP
+### Windows Server 2008
+
+Abra o menu Iniciar > Ferramentas Administrativas > Gerenciador de Servidores > Funções > Adicionar funções. Selecione "Serviços de Acesso e Diretiva de Rede". Selecione próximo até chegar na seguinte tela, e então marque as seguintes opções:
+
+![](./assets/c10_s01.png)
+
+Selecione Próximo e depois Instalar.
+
+Abra o menu Iniciar > Ferramentas Administrativas > Roteamento e acesso remoto. Clique com o botão direito em SERVER01 e selecione Configurar e Habilitar Roteamento e Acesso Remoto. Clique em avançar e selecione a seguinte opção:
+
+![](./assets/c10_s02.png)
+
+Clique em avançar. Na próxima tela, selecione "rede externa" e clique em Avançar, depois Concluir.
