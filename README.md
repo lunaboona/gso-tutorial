@@ -264,7 +264,36 @@ Abra o menu Iniciar > Painel de Controle > Conexões de Rede e Internet > Conex�
 
 ## 7. Configurar IIS
 
-WIP
+### Windows Server 2008
+
+Abra o menu Iniciara > Ferramentas Administrativas > Gerenciador de Servidores > Funções > Adicionar funções. Selecione Servidor Web (IIS) e, ao abrir uma janela, selecione Adicionar Recursos Necessários.
+
+Clique em Próximo até chegar na seguinte tela:
+
+![](./assets/c07_s01.png)
+
+E então selecione as seguintes opções:
+
+- Servidor Web
+  - Recuros HTTP Comuns
+    - Marcar todos
+  - Desenvolvimento de aplicativos
+    - Marcar todos
+- Ferramentas de Gerenciamento
+  - Compatibilidade com Gerenciamento do ISS 6
+    - Marcar todos
+- Serviço de Publicação FTP
+  - Marcar todos
+
+Clique em Próximo, e depois em Instalar.
+
+Selecione o menu Iniciar > Todos os Programas > Acessórios > Windows Explorer. Navegue até a pasta `C:\inetpub\wwwroot` e crie uma pasta com o nome desejado para o site, por exemplo, `gso.com`. Dentro desta pasta, crie um arquivo chamado `index.htm` e insira o conteúdo desejado do site no arquivo.
+
+Selecione o menu Iniciar > Ferramentas Administrativas > Gerenciador de Serviços de Informações da Internet (IIS). Selecione SERVER01 e clique com o botão direito em Sites > Adicionar Site. Preencha os seguintes campos e depois clique em OK:
+
+![](./assets/c07_s02.png)
+
+Selecione o menu Iniciar > Ferramentas Administrativas > DNS. Selecione Zonas de pesquisa direta (com o botão direito) > Nova zona. Siga os passos descritos na seção de DNS, preenchendo o nome da zona como `gso.com`. Selecione a zona criada e clique com o botão direito no painel à direita, então selecione Novo Host (A ou AAAA). Preencha o campo Endereço IP como `192.168.10.1` e mantenha a _checkbox_ marcada, então clique em Adicionar Host. Clique novamente com o botão direito e selecione Novo Alias (CNAME). Siga os passos descritos na seção de DNS, porém selecionando `gso.com` ao invés de `server01`.
 
 ## 8. Configurar FTP
 
