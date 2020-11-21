@@ -2,6 +2,19 @@
 
 Trabalho teórico bimestral para a matéria de Gestão de Sistemas Operacionais.
 
+Índice:
+
+1. [Configurar as máquinas virtuais](#1-configurar-as-máquinas-virtuais)
+2. [Configurar a rede IPV4 de forma manual](#2-configurar-a-rede-ipv4-de-forma-manual)
+3. [Configurar o nome de cada computador](#3-configurar-o-nome-de-cada-computador)
+4. [Configurar o acesso remoto ao server](#4-configurar-o-acesso-remoto-ao-server)
+5. [Configurar o DNS](#5-configurar-o-dns)
+6. [Configurar DHCP](#6-configurar-dhcp)
+7. [Configurar IIS](#7-configurar-iis)
+8. [Configurar FTP](#8-configurar-ftp)
+9. [Configurar Internet local para o server (NAT Externo)](#9-configurar-internet-local-para-o-server-nat-externo)
+10. [Configurar internet para clientes do server (NAT Interno)](#10-configurar-internet-para-clientes-do-server-nat-interno)
+
 ## 1. Configurar as máquinas virtuais
 
 ### Importar a VM do Windows XP
@@ -102,7 +115,7 @@ Desative o Compartilhamento protegido por senha:
 
 ![](./assets/c02_s11.png)
 
-## Windows XP
+### Windows XP
 
 Na VM do Windows XP, clique no ícone de Rede e depois em Propriedades:
 
