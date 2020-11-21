@@ -301,7 +301,7 @@ Selecione o menu Iniciar > Ferramentas Administrativas > Gerenciador de Serviço
 
 Selecione o menu Iniciar > Ferramentas Administrativas > DNS. Selecione `server01.com`, depois com o botão direito no painel selecione Novo Alias (CNAME). Preencha `ftp` no primeiro campo, depois selecione Procurar e vá até `server01.com` > (igual à pasta pai).
 
-Todo o conteúdo dentro de `C:\inetpub\ftproot` estará disponível no servidor FTP.
+Todo o conteúdo dentro de `C:\inetpub\ftproot` estará disponível no servidor FTP, acessado pela URL `ftp://ftp.server01.com/`.
 
 ## 9. Configurar Internet local para o server (NAT Externo)
 
